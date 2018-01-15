@@ -1,0 +1,17 @@
+{
+  "name": "Bunny & Co Calendar",
+  "description": "This extension lets you see a beautiful calendar as a New Tab page and allows you to add notes too.",
+  "version": "0.2",
+  "incognito": "split",
+  "browser_action": {
+
+     "default_icon": "icon.png"
+   },
+  "chrome_url_overrides": {
+    "newtab": "background.html"
+  },
+  "manifest_version": 2,
+  "permissions": [
+   "identity",  "identity.email"
+  ]
+}

@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #333;
+  font-size: 1.6rem;
+  background-color: #FAFAFA;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo {
+  margin: 1.6rem auto;
+  text-align: center;
+}
+
+a, a:visited {
+  color: #0A9297;
+}
+
+footer {
+  text-align: center;
+  margin: 1.6rem 0;
+}
+
+.container {
+  margin: 1.6rem auto;
+  max-width: 76rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cal__header button {
+  background: none;
+  border: 0;
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+}
+
+.cal button:active {
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px rgba(10, 146, 151, 0.1)
+}
+
+.cal {
+  width: 90%;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.cal__header {
+  display: flex;
+  padding: 1.2rem 1.4rem;
+  align-items: center;
+  font-size: 40px;
+}
+
+.cal__header svg {
+  fill: #edb500;
+}
+
+.cal__header__label {
+  width: 100%;
+  text-align: center;
+}
+
+.cal__week {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+}
+
+.cal__week span {
+  font-size: 1.5rem;
+  max-width: 14.28%;
+  padding: 1.2rem 1.4rem;
+  flex: 0 0 14.28%;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cal__body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cal__date {
+  background-color: #fff;
+  display: flex;
+  max-width: 14.28%;
+  flex: 0 0 14.28%;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem 0;
+  border-radius: 300px;
+  font-size: 20px;
+}
+
+
+
+.cal__date--today {
+  background-color: #edb500;
+  color: #fff;
+}
+
+.cal__date--selected {
+  background-color: #E7E9ED;
+  color: #333;
+}
+
+.cal__date--disabled {
+  color:#a0cfc6;
+}
+
+
+.demo-picked {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.demo-picked span {
+  font-weight: bold;
+}

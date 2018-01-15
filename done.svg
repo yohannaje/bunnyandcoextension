@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="13px" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1228.70711,476.292893 C1228.31658,475.902369 1227.68342,475.902369 1227.29289,476.292893 C1226.90237,476.683418 1226.90237,477.316582 1227.29289,477.707107 L1232.29289,482.707107 C1232.68342,483.097631 1233.31658,483.097631 1233.70711,482.707107 L1244.70711,471.707107 C1245.09763,471.316582 1245.09763,470.683418 1244.70711,470.292893 C1244.31658,469.902369 1243.68342,469.902369 1243.29289,470.292893 L1233,480.585786 L1228.70711,476.292893 Z" id="path-1"></path>
+    </defs>
+    <g id="Feather" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1227.000000, -470.000000)">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#1E3038" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>
